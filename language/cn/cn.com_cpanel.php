@@ -63,28 +63,26 @@ $_lang['FRIENDLY_URLS'] = '友好URL地址';
 $_lang['SEF_INFO'] = '设置为 YES (推荐) 重命名 htaccess.txt 文件为 .htaccess';
 $_lang['STATISTICS_INFO'] = '开启网站访问统计?';
 $_lang['GZIP_COMPRESSION'] = 'GZip 压缩';
-$_lang['GZIP_COMPRESSION_DESC'] = 'Elxis will compress the document with GZIP before sending it to the browser and thus save you 70% to 80% bandwidth.';
-$_lang['DEFAULT_ROUTE'] = 'Default route';
-$_lang['DEFAULT_ROUTE_INFO'] = 'An Elxis formatted URI that will be used as the site\'s frontpage';
-$_lang['META_DATA'] = 'META data';
-$_lang['META_DATA_INFO'] = 'A short description for the web site';
-$_lang['KEYWORDS'] = 'Keywords';
-$_lang['KEYWORDS_INFO'] = 'A few keywords separated with commas';
-$_lang['STYLE_LAYOUT'] = 'Style and layout';
-$_lang['SITE_TEMPLATE'] = 'Site template';
-$_lang['ADMIN_TEMPLATE'] = 'Administration template';
-$_lang['ICONS_PACK'] = 'Icons pack';
-$_lang['LOCALE'] = 'Locale';
-$_lang['TIMEZONE'] = 'Timezone';
-$_lang['MULTILINGUISM'] = 'Multilinguism';
-$_lang['MULTILINGUISM_INFO'] = 'Allows you to enter text elements in more than one languages (translations). 
-	Don\'t enable it if you don\'t use it as it will slow down the site without reason. Elxis interface 
-	will still be multi-lingual even if this option is set to No.';
-$_lang['CHANGE_LANG'] = 'Change language';
-$_lang['LANG_CHANGE_WARN'] = 'If you change the default language there might be inconsistencies 
-	between the language indicators and the translations in translations table.';
-$_lang['CACHE'] = 'Cache';
-$_lang['CACHE_INFO'] = 'Elxis can save the generated HTML code by individual elements into cache for faster later re-generation. 
+$_lang['GZIP_COMPRESSION_DESC'] = 'Elxis会把稳定压缩后发送到客户端,这样可以节省70%~80%的流量.';
+$_lang['DEFAULT_ROUTE'] = '默认路由';
+$_lang['DEFAULT_ROUTE_INFO'] = '使用一个Elxis格式化的URI作为网站首页 ';
+$_lang['META_DATA'] = 'META 数据';
+$_lang['META_DATA_INFO'] = '网站简短描述';
+$_lang['KEYWORDS'] = '关键词';
+$_lang['KEYWORDS_INFO'] = '多个关键词用逗号隔开';
+$_lang['STYLE_LAYOUT'] = '样式和布局';
+$_lang['SITE_TEMPLATE'] = '网站模板';
+$_lang['ADMIN_TEMPLATE'] = '后台模板';
+$_lang['ICONS_PACK'] = '图标数据包';
+$_lang['LOCALE'] = '区域设置';
+$_lang['TIMEZONE'] = '时区';
+$_lang['MULTILINGUISM'] = '多语言';
+$_lang['MULTILINGUISM_INFO'] = '允许您使用多种语言输入文本. 
+	如果不需要本功能请不要开启,会使网站变慢.  即使本项设置为"No",不会对Elxis接口造成影响,它仍然是多语言.';
+$_lang['CHANGE_LANG'] = '切换语言';
+$_lang['LANG_CHANGE_WARN'] = '如果您切换了语言,可能有语言指标和翻译表的翻译不一致的情况.';
+$_lang['CACHE'] = '缓存';
+$_lang['CACHE_INFO'] = 'Elxis  can save the generated HTML code by individual elements into cache for faster later re-generation. 
 	This is a general setting, you must also enable cache on the elements (eg. modules) you wish to be cached.';
 $_lang['APC_INFO'] = 'The Alternative PHP Cache (APC) is an opcode cache for PHP. It must be supported by your web server. 
 	It is not recommended on shared hosting environments. Elxis will use it on special pages to improve site performace.';
