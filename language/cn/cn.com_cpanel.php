@@ -114,67 +114,61 @@ $_lang['PATH'] = '路径';
 $_lang['FTP_PATH_INFO'] = '从ftp根目录到安装目录的相对路径 (如: /public_html).';
 $_lang['SESSION'] = 'Session';
 $_lang['HANDLER'] = 'Handler';
-$_lang['HANDLER_INFO'] = 'Elxis can save sessions as files into Repository or into the database. 
-	You can also choose None to let PHP save sessions into the server\'s default location.';
-$_lang['FILES'] = 'Files';
-$_lang['LIFETIME'] = 'Lifetime';
-$_lang['SESS_LIFETIME_INFO'] = 'Time till the session expires when you are idle.';
-$_lang['CACHE_TIME_INFO'] = 'After this time cached items get re-generated.';
-$_lang['MINUTES'] = 'minutes';
-$_lang['HOURS'] = 'hours';
-$_lang['MATCH_IP'] = 'Match IP';
-$_lang['MATCH_BROWSER'] = 'Match browser';
-$_lang['MATCH_REFERER'] = 'Match HTTP Referrer';
-$_lang['MATCH_SESS_INFO'] = 'Enables an advanced session validation routine.';
-$_lang['ENCRYPTION'] = 'Encryption';
-$_lang['ENCRYPT_SESS_INFO'] = 'Encrypt session data?';
-$_lang['ERRORS'] = 'Errors';
-$_lang['WARNINGS'] = 'Warnings';
-$_lang['NOTICES'] = 'Notices';
-$_lang['NOTICE'] = 'Notice';
-$_lang['REPORT'] = 'Report';
-$_lang['REPORT_INFO'] = 'Errors report level. On production sites we recommend you to set it to off.';
-$_lang['LOG'] = 'Log';
-$_lang['LOG_INFO'] = 'Error log level. Select which errors you wish Elxis to write in system 
-	log (repository/logs/).';
-$_lang['ALERT'] = 'Alert';
-$_lang['ALERT_INFO'] = 'Mail fatal errors to site\'s technical manager.';
-$_lang['ROTATE'] = 'Rotate';
-$_lang['ROTATE_INFO'] = 'Rotate error logs at the end of each month. Recommended.';
-$_lang['DEBUG'] = 'Debug';
-$_lang['MODULE_POS'] = 'Module positions';
-$_lang['MINIMAL'] = 'Minimal';
-$_lang['FULL'] = 'Full';
-$_lang['DISPUSERS_AS'] = 'Display users as';
-$_lang['USERS_REGISTRATION'] = 'Users registration';
-$_lang['ALLOWED_DOMAIN'] = 'Allowed domain';
-$_lang['ALLOWED_DOMAIN_INFO'] = 'Write a domain name (i.e. elxis.org) only for which the system 
-	will accept registration e-mail addresses.';
-$_lang['EXCLUDED_DOMAINS'] = 'Excluded domains';
-$_lang['EXCLUDED_DOMAINS_INFO'] = 'Comma separated list of domain names (i.e. badsite.com,hacksite.com) 
-	from which e-mail addresses are not acceptable during registration.';
-$_lang['ACCOUNT_ACTIVATION'] = 'Account activation';
-$_lang['DIRECT'] = 'Direct';
-$_lang['MANUAL_BY_ADMIN'] = 'Manual by administrator';
-$_lang['PASS_RECOVERY'] = 'Password recovery';
-$_lang['SECURITY'] = 'Security';
-$_lang['SECURITY_LEVEL'] = 'Security level';
-$_lang['SECURITY_LEVEL_INFO'] = 'By increasing the security level some options are enabled by force 
-	while some features may be disabled. Consult Elxis documentation for more.';
-$_lang['NORMAL'] = 'Normal';
-$_lang['HIGH'] = 'High';
-$_lang['INSANE'] = 'Insane';
-$_lang['ENCRYPT_METHOD'] = 'Encryption method';
-$_lang['AUTOMATIC'] = 'Automatic';
-$_lang['ENCRYPTION_KEY'] = 'Encryption key';
-$_lang['ELXIS_DEFENDER'] = 'Elxis defender';
-$_lang['ELXIS_DEFENDER_INFO'] = 'Elxis defender protects your web site from XSS and SQL injection attacks. 
-	This powerful tool filters user requests and blocks attacks to your site. It will also notify you for 
-	an attack and log it. You can select which type of filters to be applied or even lock your system\'s 
-	crucial files for unauthorized modifications. The more filters you enable the slower your site will run. 
-	We recommend enabling options G, C and F. Consult Elxis documentation for more.';
-$_lang['SSL_SWITCH'] = 'SSL switch';
-$_lang['SSL_SWITCH_INFO'] = 'Elxis will automatically switch from HTTP to HTTPS in pages where privacy is important. 
+$_lang['HANDLER_INFO'] = 'Elxis 可以把session储存到文件或者数据库 . 
+	您也可以不选择该项,让PHP保存到服务器默认的位置.';
+$_lang['FILES'] = '文件';
+$_lang['LIFETIME'] = '生存时间';
+$_lang['SESS_LIFETIME_INFO'] = '当您不操作的时候,会话过期的时间.';
+$_lang['CACHE_TIME_INFO'] = '超过这个时间,重新生存缓存.';
+$_lang['MINUTES'] = '分钟';
+$_lang['HOURS'] = '小时';
+$_lang['MATCH_IP'] = '匹配IP';
+$_lang['MATCH_BROWSER'] = '匹配浏览器';
+$_lang['MATCH_REFERER'] = '匹配HTTP来路';
+$_lang['MATCH_SESS_INFO'] = '启用高级会话验证程序.';
+$_lang['ENCRYPTION'] = '加密';
+$_lang['ENCRYPT_SESS_INFO'] = '加密session数据?';
+$_lang['ERRORS'] = '错误';
+$_lang['WARNINGS'] = '提醒';
+$_lang['NOTICES'] = '注意';
+$_lang['NOTICE'] = '注意';
+$_lang['REPORT'] = '报告';
+$_lang['REPORT_INFO'] = '错误报告级别. 我们建议成品网站关闭所有错误报告.';
+$_lang['LOG'] = '日志';
+$_lang['LOG_INFO'] = '错误日志级别. 选择您希望写入错误日志的错误级别 (repository/logs/).';
+$_lang['ALERT'] = '提醒';
+$_lang['ALERT_INFO'] = '给技术经理的邮件致命错误.';
+$_lang['ROTATE'] = '替换';
+$_lang['ROTATE_INFO'] = '每个月替换错误日志. 推荐.';
+$_lang['DEBUG'] = '调试';
+$_lang['MODULE_POS'] = '模块位置';
+$_lang['MINIMAL'] = '最小';
+$_lang['FULL'] = '完整';
+$_lang['DISPUSERS_AS'] = '展示用户';
+$_lang['USERS_REGISTRATION'] = '用户注册';
+$_lang['ALLOWED_DOMAIN'] = '允许域名';
+$_lang['ALLOWED_DOMAIN_INFO'] = '填写一个域名 (如. elxis.org) 仅允许该域名的邮箱注册.';
+$_lang['EXCLUDED_DOMAINS'] = '例外域名';
+$_lang['EXCLUDED_DOMAINS_INFO'] = '注册的时候不接受的邮箱域名列表,多个用逗号隔开.';
+$_lang['ACCOUNT_ACTIVATION'] = '账号激活';
+$_lang['DIRECT'] = '指令';
+$_lang['MANUAL_BY_ADMIN'] = '管理员手册';
+$_lang['PASS_RECOVERY'] = '密码恢复';
+$_lang['SECURITY'] = '安全';
+$_lang['SECURITY_LEVEL'] = '安全级别';
+$_lang['SECURITY_LEVEL_INFO'] = '提升安全级别会强制开启或关闭一些功能,如需了解更多,请查看Elxis文档.';
+$_lang['NORMAL'] = '普通';
+$_lang['HIGH'] = '高';
+$_lang['INSANE'] = '最高级';
+$_lang['ENCRYPT_METHOD'] = '加密方法';
+$_lang['AUTOMATIC'] = '自动';
+$_lang['ENCRYPTION_KEY'] = '加密 key';
+$_lang['ELXIS_DEFENDER'] = 'Elxis 守护者';
+$_lang['ELXIS_DEFENDER_INFO'] = 'Elxis 守护者保护您的网站不受XSS和SQL攻击.这个强大的工具用于过滤用户请求和防止网站受攻击.
+	 收到攻击的时候它还会通知您并记录日志.您可以选择使用的过滤器类型甚至锁定您的系统中未授权修改的文件. 然而开启太多的过滤器会
+	 使您的网址变慢.我们建议开启G,C 和F级别的就可以了.了解更多详见Elxis文档 .';
+$_lang['SSL_SWITCH'] = 'SSL 切换';
+$_lang['SSL_SWITCH_INFO'] = '在隐私是重要的页面,Elxis 会自动切换HTTP为HTTPS. 
 	For the administration area the HTTPS scheme will be permanent. Requires an SSL certificate!';
 $_lang['PUBLIC_AREA'] = 'Public area';
 $_lang['GENERAL_FILTERS'] = 'General rules';
