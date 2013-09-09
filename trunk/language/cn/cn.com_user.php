@@ -56,8 +56,7 @@ $_lang['PASSRECOVNALL'] = '不允许找回密码. 请联系网站管理员修改
 $_lang['SECLEVNALLRP'] = '网站安全设置不允许找回密码,请联系管理员.';
 $_lang['PASSRECOVDESC'] = '请填写您的用户名和邮箱. 如果您填写正确,系统会给您的邮箱发送封包含新密码的邮件.';
 $_lang['USERNFOUND'] = '没有发现此用户!';
-$_lang['NEWPASSGENREQ'] = 'A new password was generated for you after your request. You may now login using 
-your username and the password shown below.';
+$_lang['NEWPASSGENREQ'] = '新密码已经生成,您可以使用您的用户名和以下的密码登录.';
 $_lang['NEWPASSSUCCGEN'] = 'A new password was successfully generated for you and sent to your e-mail address.';
 $_lang['USERSCENTRAL'] = 'Users central';
 $_lang['USERSCENTRALDESC'] = 'Welcome to the web site users central. From here you can navigate to 
