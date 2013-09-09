@@ -156,21 +156,21 @@ $_lang['TIMES_ONLINE'] = '登录次数';
 $_lang['ACCOUNT_CREATED_SUC'] = '添加用户成功!';
 $_lang['USER_GROUPS'] = '用户组';
 $_lang['MEMBERS'] = 'Members';
-$_lang['CNOT_DEL_GROUP'] = '您不能删除这个分组!';
-$_lang['CNOT_MOD_GROUP'] = '您不能修改这个分组!';
-$_lang['CNOT_DEL_GROUP_MEMBERS'] = '您不能删除有成员的分组!';
-$_lang['GROUPNFOUND'] = '没有找到该分组!';
-$_lang['EDIT_GROUP'] = '编辑分组';
-$_lang['NEW_GROUP'] = '添加分组';
-$_lang['GROUP_DETAILS'] = '分组信息';
-$_lang['GROUPS_HIERARCHY_TREE'] = '分组组织结构';
-$_lang['GROUP_ACCESS_SITE'] = "网站分组 %s 访问";
+$_lang['CNOT_DEL_GROUP'] = '您不能删除这个小组!';
+$_lang['CNOT_MOD_GROUP'] = '您不能修改这个小组!';
+$_lang['CNOT_DEL_GROUP_MEMBERS'] = '您不能删除有成员的小组!';
+$_lang['GROUPNFOUND'] = '没有找到该小组!';
+$_lang['EDIT_GROUP'] = '编辑小组';
+$_lang['NEW_GROUP'] = '添加小组';
+$_lang['GROUP_DETAILS'] = '小组信息';
+$_lang['GROUPS_HIERARCHY_TREE'] = '小组组织结构';
+$_lang['GROUP_ACCESS_SITE'] = "网站小组 %s 访问";
 $_lang['ELEMENT'] = '元素';
 $_lang['IDENTITY'] = '标识';
 $_lang['IDENTITY_HELP'] = '对于有多个实例的项目, 如模块, 设置实例id. 其余的全部设置为0.';
 $_lang['ACTION'] = '动作';
 $_lang['MINLEVEL'] = '最低级别';
-$_lang['GROUP_ID'] = '分组id';
+$_lang['GROUP_ID'] = '小组id';
 $_lang['USER_ID'] = '用户id';
 $_lang['ACCESS_VALUE'] = '访问值';
 $_lang['ALLOWED'] = '允许';
@@ -187,20 +187,17 @@ $_lang['INSTALL'] = '安装';
 $_lang['UPLOAD'] = '上传';
 $_lang['AUTH'] = '认证方法';
 $_lang['ENGINES'] = '搜索引擎';
-$_lang['GROUPS'] = '分组';
+$_lang['GROUPS'] = '小组';
 $_lang['FRONTPAGE'] = '标题';
 $_lang['POST'] = '发布'; //translators help: Post a comment
 $_lang['UPLOADAVATAR'] = '上传头像';
 $_lang['BACKUP'] = '备份';
-$_lang['FIRST_SAVE_GROUP'] = '您必须先保存分组!';
-$_lang['GROUPS_GENERIC_INFO'] = 'You can create up to 995 custom user groups. The strength of a group is based 
-	on its <strong>access level</strong>. The higher the access level is the more access the group will have on 
-	the site. Custom user groups can have access <strong>from 2 to 99</strong>. You can have 2 or more groups 
-	with the same access level. The <strong>Guest</strong> user group has access 0. <strong>External users</strong> 
-	are guests having logged in with external authentication methods like Gmail and Facebook. The external users 
-	are wicker than the standard users. It is required a minimum access level of <strong>70</strong> for a user 
-	to access the <strong>administration console</strong>. Some, system important, user groups can not be edited 
-	or deleted. Please read the Elxis documentation for more information.';
+$_lang['FIRST_SAVE_GROUP'] = '您必须先保存小组!';
+$_lang['GROUPS_GENERIC_INFO'] = '您最多可以创建995个自定义用户小组, 小组的人气很大程度取决于它的<strong>访问级别</strong>.
+    越高的访问级别会有越多的访问量,. 自定义的用户小组可以访问<strong>2 到 99</strong>. 您可以有2个或更多的小组具有相同的访问级别.  
+    <strong>游客</strong> 用户组访问级别为0. <strong>外部用户</strong> 是指用第三方帐号登录本站的用户,如Gmail 和facebook.
+         这些用户的访问权限比网站用户稍微小一点. 这是必须的最低访问级别 <strong>70</strong> 对于一下访问for a user 
+	to access the <strong>超级管理员控制台</strong>,以及涉及系统重要信息, 用户不能删除的问题. 请阅读Elxis文档.';
 $_lang['ACL'] = '访问控制列表';
 $_lang['USE_TRANSLATIONS'] = '使用翻译';
 $_lang['OTHER'] = '其他';
@@ -216,11 +213,11 @@ $_lang['NOONE'] = '没有人';
 $_lang['ACCRULE_EXISTS'] = '访问规则已经存在!';
 $_lang['ACCRULE_MINLEVEL_EXISTS'] = '最低级别访问规则已经存在!';
 $_lang['MODID_NOTSET'] = '该模块的实例id没有设置!';
-$_lang['SECLEVEL_ACC_ADMIN'] = 'Current security level restricts access to ACL only to administrators!';
-$_lang['SUCC_LOGGED'] = 'You have successfully logged in!';
-$_lang['CLOSEWIN_IFNOTAUTO'] = 'Close this window if it does not close automatically.';
-$_lang['SEL_OPENID_PROVIDER'] = 'Select OpenID provider';
-$_lang['RETRY'] = 'Re-try';
-$_lang['REQUEST_DROP'] = 'Request dropped!';
+$_lang['SECLEVEL_ACC_ADMIN'] = '当前的安全设置限制为,只有最高管理员才能访问!';
+$_lang['SUCC_LOGGED'] = '您登录成功!';
+$_lang['CLOSEWIN_IFNOTAUTO'] = '如果该窗口不自动关闭,可以手动关闭.';
+$_lang['SEL_OPENID_PROVIDER'] = '选择开放id提供者';
+$_lang['RETRY'] = '再试一次';
+$_lang['REQUEST_DROP'] = '请求已放弃!';
 
 ?>
