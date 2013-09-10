@@ -17,14 +17,14 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_ADMINPROFILE_TITLE'] = 'Administration profile';
-$_lang['SHOW_ARTICLES'] = 'Show articles';
-$_lang['SHOW_ARTICLES_DESC'] = 'Latest user articles to display.';
-$_lang['HAVENOT_WRITEART'] = 'You haven\'t written any article.';
-$_lang['SHOW_DATE'] = 'Show date';
-$_lang['SHOW_DATE_DESC'] = 'Display local user date.';
-$_lang['EDIT_PROFILE'] = 'Edit profile';
-$_lang['LATEST_ARTICLES'] = 'Latest articles';
-$_lang['MY_PROFILE'] = 'My profile';
+$_lang['MOD_ADMINPROFILE_TITLE'] = '管理员信息';
+$_lang['SHOW_ARTICLES'] = '显示文章';
+$_lang['SHOW_ARTICLES_DESC'] = '展示最新用户文章.';
+$_lang['HAVENOT_WRITEART'] = '您没有编写任何文章.';
+$_lang['SHOW_DATE'] = '显示日期';
+$_lang['SHOW_DATE_DESC'] = '显示用户本地日期.';
+$_lang['EDIT_PROFILE'] = '编辑资料';
+$_lang['LATEST_ARTICLES'] = '最新文章';
+$_lang['MY_PROFILE'] = '我的资料';
 
 ?>
