@@ -17,8 +17,8 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_ADMINLANG_TITLE'] = 'Administration language';
-$_lang['LOCAL_NAMES'] = 'Local names';
-$_lang['LOCAL_NAMES_DESC'] = 'Display local language names? If no, language names will be displayed in English.';
+$_lang['MOD_ADMINLANG_TITLE'] = '管理员语言';
+$_lang['LOCAL_NAMES'] = '本地名称';
+$_lang['LOCAL_NAMES_DESC'] = '展示本地语言名称? 若否,语言名称会用英文展示.';
 
 ?>
