@@ -16,6 +16,6 @@
 defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 $_lang = array();
-$_lang['SORRY_WRONG_PAGE'] = 'We are sorry, there is something wrong with this page and cannot be displayed.';
+$_lang['SORRY_WRONG_PAGE'] = '很抱歉,这个页面因为有错误不能正常显示.';
 
 ?>
