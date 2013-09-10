@@ -24,29 +24,29 @@ $_lang['FORBIDDEN'] = 'Forbidden!';
 $_lang['ACCESS_NOT_ALLOWED'] = 'Access to this page is not allowed.';
 $_lang['SORRY_INCONVENIENCE'] = 'Sorry for the inconvenience.';
 /* 404 */
-$_lang['PAGE_NOT_FOUND'] = 'Page not found!';
-$_lang['PAGE_REQ_NOT_FOUND'] = 'The page you requested was not found!';
-$_lang['VISIT_ONE_OF_OUR_PAGES'] = 'Visit one of our pages';
+$_lang['PAGE_NOT_FOUND'] = '该页面没有找到!';
+$_lang['PAGE_REQ_NOT_FOUND'] = '没有找到您请求的页面!';
+$_lang['VISIT_ONE_OF_OUR_PAGES'] = '访问我们的网页';
 /* error */
-$_lang['ERROR_OCCURED'] = 'An error occurred!';
-$_lang['UNREC_ERROR_REQUEST'] = 'An unrecoverable error occurred during the process of your request.';
-$_lang['ERROR_DETAILS'] = 'Error details';
+$_lang['ERROR_OCCURED'] = '发生错误!';
+$_lang['UNREC_ERROR_REQUEST'] = '处理请求的过程中发生不可恢复的错误.';
+$_lang['ERROR_DETAILS'] = '错误详细信息';
 /* offline */
-$_lang['OFFLINE'] = 'Offline!';
-$_lang['WEBSITE_OFFLINE'] = 'The website is offline.';
-$_lang['WEBSITE_MAINTENANCE'] = 'Sorry, the website is currently under maintenance.';
-$_lang['OWN_ADMIN_LOGIN'] = 'If you own an administrator account you may login below.';
-$_lang['LOGIN'] = 'Login';
-$_lang['FILL_VALID_USERPASS'] = 'Fill in a valid username and password!';
-$_lang['ONLY_ADMINS_LOGIN'] = 'Only site administrators can log in!';
-$_lang['ADMIN_UNAME'] = 'Administrator username';
+$_lang['OFFLINE'] = '当前离线!';
+$_lang['WEBSITE_OFFLINE'] = '该网站已下线.';
+$_lang['WEBSITE_MAINTENANCE'] = '很抱歉,网站正在维护.';
+$_lang['OWN_ADMIN_LOGIN'] = '如果您有超级管理员帐号,仍可以从下面登录.';
+$_lang['LOGIN'] = '登录';
+$_lang['FILL_VALID_USERPASS'] = '填写有效的用户名和密码!';
+$_lang['ONLY_ADMINS_LOGIN'] = '只有超级管理员可以登录!';
+$_lang['ADMIN_UNAME'] = '管理员帐号';
 /* admin login */
-$_lang['ADMINISTRATION_LOGIN'] = 'Administration login';
-$_lang['VUP_ACCESS_ADMIN'] = 'Use a valid username and password to gain access to the administration console.';
-$_lang['CHOOSE_LANG'] = 'Choose language';
-$_lang['SORRY_ADMIN_NO_MOBILE'] = 'We are sorry but the administration console is not accessible to handheld devices.';
-$_lang['CONFIRM'] = 'Confirm';
-$_lang['CONFIRM_INFO'] = 'You are about to enter the administration console. Please confirm your password.';
-$_lang['NOT_ENOUGH_PRIV'] = 'You do not have enough privileges to access the administration console!';
+$_lang['ADMINISTRATION_LOGIN'] = '管理员登录';
+$_lang['VUP_ACCESS_ADMIN'] = '使用有效的用户名和密码进入管理员控制台.';
+$_lang['CHOOSE_LANG'] = '选择语言';
+$_lang['SORRY_ADMIN_NO_MOBILE'] = '很抱歉管理员控制台不能使用移动设备(手机)访问.';
+$_lang['CONFIRM'] = '确认';
+$_lang['CONFIRM_INFO'] = '您即将进入管理员控制台,请确认您的密码.';
+$_lang['NOT_ENOUGH_PRIV'] = '您不够权限进入管理员控制台!';
 
 ?>
