@@ -17,31 +17,31 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_ADMINARTICLES_TITLE'] = 'Latest and popular articles';
-$_lang['LATEST_ARTICLES'] = 'Latest articles';
-$_lang['LATEST'] = 'Latest';
-$_lang['POPULAR_ARTICLES'] = 'Popular articles';
-$_lang['POPULAR'] = 'Popular';
-$_lang['CHANGE_MOD_PARAMS'] = 'Change this module parameters';
-$_lang['IN'] = 'in'; //translators help: in {CATEGORY_NAME}
-$_lang['BY'] = 'by'; //translators help: by {AUTHOR_NAME}
-$_lang['EDIT_CATEGORY'] = 'Edit category';
-$_lang['EDIT_USER'] = 'Edit user';
-$_lang['CREATED_ON'] = "Created on %s"; //translators help: Created on {DATE}
-$_lang['NALLOW_EDIT'] = 'You are not allowed to edit this item';
-$_lang['UNPUBLISHED'] = 'un-published';
-$_lang['LATEST_ARTS_SITE'] = 'The latest articles added on site.';
-$_lang['POPULAR_LAST_MONTH'] = 'The most popular articles of the last month.';
-$_lang['POPULAR_LAST_MONTHS'] = 'The most popular articles of the last %s months.';
-$_lang['POPULAR_ALL_TIME'] = 'The most popular articles of all time.';
-$_lang['LIMIT_ARTICLES_DESC'] = 'Number of articles to display';
-$_lang['POP_MONTHS'] = 'Months of popularity';
-$_lang['POP_MONTHS_DESC'] = 'You can limit the popular articles shown to a specific time period.';
-$_lang['ALL_TIME_POPULAR'] = 'All time popular';
-$_lang['LAST_MONTH'] = 'Last month';
-$_lang['LAST_2MONTHS'] = 'Last 2 months';
-$_lang['LAST_3MONTHS'] = 'Last 3 months';
-$_lang['LAST_6MONTHS'] = 'Last 6 months';
-$_lang['LAST_YEAR'] = 'Last year';
+$_lang['MOD_ADMINARTICLES_TITLE'] = '最新流行的文章';
+$_lang['LATEST_ARTICLES'] = '最新文章';
+$_lang['LATEST'] = '最新';
+$_lang['POPULAR_ARTICLES'] = '流行文章';
+$_lang['POPULAR'] = '流行';
+$_lang['CHANGE_MOD_PARAMS'] = '修改模块参数';
+$_lang['IN'] = '在'; //translators help: in {CATEGORY_NAME}
+$_lang['BY'] = '作者'; //translators help: by {AUTHOR_NAME}
+$_lang['EDIT_CATEGORY'] = '编辑栏目';
+$_lang['EDIT_USER'] = '编辑用户';
+$_lang['CREATED_ON'] = "创建于 %s"; //translators help: Created on {DATE}
+$_lang['NALLOW_EDIT'] = '您不被允许修改此项';
+$_lang['UNPUBLISHED'] = '未发布';
+$_lang['LATEST_ARTS_SITE'] = '网站中最新添加的文章.';
+$_lang['POPULAR_LAST_MONTH'] = '上个月最流行的文章.';
+$_lang['POPULAR_LAST_MONTHS'] = '上%s个月最流行的文章.';
+$_lang['POPULAR_ALL_TIME'] = '最流行的文章.';
+$_lang['LIMIT_ARTICLES_DESC'] = '文章展示数';
+$_lang['POP_MONTHS'] = '普及月';
+$_lang['POP_MONTHS_DESC'] = '您可以限制显示特定时间段内受欢迎的文章.';
+$_lang['ALL_TIME_POPULAR'] = '一直流行';
+$_lang['LAST_MONTH'] = '上个月';
+$_lang['LAST_2MONTHS'] = '过去 2 个月';
+$_lang['LAST_3MONTHS'] = '过去 3 个月';
+$_lang['LAST_6MONTHS'] = '过去 6 个月';
+$_lang['LAST_YEAR'] = '上一年';
 
 ?>
