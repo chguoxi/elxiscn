@@ -17,25 +17,25 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_LANGUAGE_TITLE'] = 'Language';
-$_lang['STYLE_LAYOUT'] = 'Style and layout';
-$_lang['STYLE'] = 'Style';
-$_lang['DROP_LIST'] = 'Drop down list';
-$_lang['FLAGS'] = 'Flags';
-$_lang['FLAGS_LANGS'] = 'Flags with language names';
-$_lang['LANG_NAMES'] = 'Language names';
-$_lang['LINK_UCENTRAL'] = 'Link to Users Central';
-$_lang['LANG_NAMES_DESC'] = 'Select how the language names should be displayed';
-$_lang['NATIVE_NAME'] = 'Native name';
-$_lang['LATIN_NAME'] = 'Latin name';
-$_lang['LANG_IDENTIFIER'] = 'Language indicator';
-$_lang['LANG_REGION'] = 'ISO Language and Region';
-$_lang['DROP_COLOUR'] = 'Drop down colour';
-$_lang['DROP_COLOUR_DESC'] = 'Will be applied to the module if Style is set to DROP LIST.';
-$_lang['BLACK'] = 'Black';
-$_lang['GRAY'] = 'Gray';
-$_lang['BLUE'] = 'Blue';
-$_lang['PURPLE'] = 'Purple';
-$_lang['SELECT_LANG'] = 'Select language';
+$_lang['MOD_LANGUAGE_TITLE'] = '语言';
+$_lang['STYLE_LAYOUT'] = '样式和布局';
+$_lang['STYLE'] = '样式';
+$_lang['DROP_LIST'] = '下拉列表';
+$_lang['FLAGS'] = '旗帜';
+$_lang['FLAGS_LANGS'] = '用旗帜标识语言名';
+$_lang['LANG_NAMES'] = '语言名称';
+$_lang['LINK_UCENTRAL'] = '连接到用户中心';
+$_lang['LANG_NAMES_DESC'] = '选择如何显示语言名称';
+$_lang['NATIVE_NAME'] = '本地名称';
+$_lang['LATIN_NAME'] = '拉丁名称';
+$_lang['LANG_IDENTIFIER'] = '语言指示器';
+$_lang['LANG_REGION'] = 'ISO 语言和地区';
+$_lang['DROP_COLOUR'] = '下拉颜色';
+$_lang['DROP_COLOUR_DESC'] = '如果样式设置为下拉框将被应用到模块.';
+$_lang['BLACK'] = '黑色';
+$_lang['GRAY'] = '灰色';
+$_lang['BLUE'] = '蓝色';
+$_lang['PURPLE'] = '紫色';
+$_lang['SELECT_LANG'] = '选择语言';
 
 ?>
