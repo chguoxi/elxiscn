@@ -17,7 +17,7 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_ARTICLES_TITLE'] = 'Articles';
+$_lang['MOD_ARTICLES_TITLE'] = '文章';
 $_lang['SOURCE'] = 'Source';
 $_lang['SOURCE_DESC'] = 'Which will be the articles source?';
 $_lang['MULTIPLE_CATEGORIES'] = 'Multiple categories';
