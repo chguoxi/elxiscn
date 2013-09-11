@@ -17,22 +17,22 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_SEARCH_TITLE'] = 'Search';
-$_lang['WIDTH'] = 'Width';
-$_lang['BOX_WIDTH_PX'] = 'Search box width in pixels';
-$_lang['SEARCHIN'] = 'Search in';
-$_lang['CONTENT'] = 'Content';
-$_lang['IMAGES'] = 'Images';
-$_lang['USERS'] = 'Users';
-$_lang['VIDEO'] = 'Video';
-$_lang['DOCUMENTS'] = 'Documents';
-$_lang['DOWNLOADS'] = 'Downloads';
-$_lang['PRODUCTS'] = 'Products';
-$_lang['HOTELS'] = 'Hotels';
-$_lang['ROOMS'] = 'Rooms';
-$_lang['COMMENTS'] = 'Comments';
-$_lang['ADS'] = 'Ads';
-$_lang['PLACES'] = 'Places';
-$_lang['FILES'] = 'Files';
+$_lang['MOD_SEARCH_TITLE'] = '搜索';
+$_lang['WIDTH'] = '宽度';
+$_lang['BOX_WIDTH_PX'] = '搜索框宽度(像素)';
+$_lang['SEARCHIN'] = '搜索';
+$_lang['CONTENT'] = '内容';
+$_lang['IMAGES'] = '图像';
+$_lang['USERS'] = '用户';
+$_lang['VIDEO'] = '视频';
+$_lang['DOCUMENTS'] = '文档';
+$_lang['DOWNLOADS'] = '下载';
+$_lang['PRODUCTS'] = '产品';
+$_lang['HOTELS'] = '酒店';
+$_lang['ROOMS'] = '房间';
+$_lang['COMMENTS'] = '评论';
+$_lang['ADS'] = '广告';
+$_lang['PLACES'] = '地点';
+$_lang['FILES'] = '文件';
 
 ?>
