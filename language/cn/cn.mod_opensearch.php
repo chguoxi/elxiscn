@@ -17,12 +17,12 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_OPENSEARCH_TITLE'] = 'Open Search';
-$_lang['ADD_ENGINE_BROWSER'] = 'Add our search engine to your browser';
-$_lang['ADD_TO_BROWSER'] = 'Add to browser';
-$_lang['TEXT'] = 'Text';
-$_lang['IMAGE_TEXT'] = 'Image and text';
-$_lang['CUSTOM_IMAGE'] = 'Custom image';
-$_lang['CUSTOM_IMAGE_DESC'] = 'Upload a PNG, JPG, JPEG or GIF image';
+$_lang['MOD_OPENSEARCH_TITLE'] = '开启搜索';
+$_lang['ADD_ENGINE_BROWSER'] = '添加我们的搜索引擎到您的浏览器';
+$_lang['ADD_TO_BROWSER'] = '添加到浏览器';
+$_lang['TEXT'] = '文本';
+$_lang['IMAGE_TEXT'] = '图像和文本';
+$_lang['CUSTOM_IMAGE'] = '自定义图像';
+$_lang['CUSTOM_IMAGE_DESC'] = '上传一个PNG, JPG, JPEG或 GIF 图像';
 
 ?>
