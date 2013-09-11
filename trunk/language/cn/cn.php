@@ -194,16 +194,16 @@ $_lang['NOTALLOWACCPAGE'] = '您无权限访问此页面!';
 $_lang['NOTALLOWACCITEM'] = '您无权限访问此项目!';
 $_lang['NOTALLOWMANITEM'] = '您无权限管理此页面!';
 $_lang['NOTALLOWACTION'] = '您无权限进行此操作!';
-$_lang['NEED_HIGHER_ACCESS'] = 'You need a higher access level for this action!';
-$_lang['AREYOUSURE'] = 'Are you sure?';
+$_lang['NEED_HIGHER_ACCESS'] = '此操作需要您有更高的访问等级!';
+$_lang['AREYOUSURE'] = '确定吗?';
 
 /* highslide */
-$_lang['LOADING'] = 'Loading...';
-$_lang['CLICK_CANCEL'] = 'Click to cancel';
-$_lang['MOVE'] = 'Move';
-$_lang['PLAY'] = 'Play';
-$_lang['PAUSE'] = 'Pause';
-$_lang['RESIZE'] = 'Resize';
+$_lang['LOADING'] = '加载中...';
+$_lang['CLICK_CANCEL'] = '点击取消';
+$_lang['MOVE'] = '更多';
+$_lang['PLAY'] = '播放';
+$_lang['PAUSE'] = '暂停';
+$_lang['RESIZE'] = '调整大小';
 
 /* admin */
 $_lang['ADMINISTRATION'] = 'Administration';
