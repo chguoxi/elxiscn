@@ -17,24 +17,24 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_WHOSONLINE_TITLE'] = 'Who is online';
-$_lang['OUTPUT_STYLE'] = 'Output style';
-$_lang['OUTPUT_STYLE_DESC'] = 'You can select to display just the total numbers of online guests and members or a more verbose output with the users avatars.';
-$_lang['JUST_NUMBERS'] = 'Just numbers';
-$_lang['NUMBERS_AVATARS'] = 'Numbers and avatars';
-$_lang['GUEST_USER_ON'] = 'We have 1 guest and 1 user online.';
-$_lang['GUESTS_USER_ON'] = 'We have %s guests and 1 user online.';
-$_lang['GUEST_USERS_ON'] = 'We have 1 guest and %s users online.';
-$_lang['GUESTS_USERS_ON'] = 'We have %s guests and %s users online.';
-$_lang['ONLINE_FOR'] = 'Online for';
-$_lang['AVATAR_WIDTH'] = 'Avatar width';
-$_lang['AVATAR_WIDTH_DESC'] = 'Online users avatar width in pixels.';
-$_lang['HOUR'] = 'hour';
-$_lang['HOURS'] = 'hours';
-$_lang['MINUTE'] = 'minute';
-$_lang['MINUTES'] = 'minutes';
-$_lang['AND'] = 'and';
-$_lang['TIME_ONLINE'] = 'Time online';
-$_lang['TIME_ONLINE_DESC'] = 'Show the time users are online? (when mouse over avatar)';
+$_lang['MOD_WHOSONLINE_TITLE'] = '谁在线';
+$_lang['OUTPUT_STYLE'] = '输出风格';
+$_lang['OUTPUT_STYLE_DESC'] = '您可以选择只显示在线的会员和访客总数或显示会员详细.';
+$_lang['JUST_NUMBERS'] = '仅会员';
+$_lang['NUMBERS_AVATARS'] = '数字和头像';
+$_lang['GUEST_USER_ON'] = '我们有1个会员和1个访客在线.';
+$_lang['GUESTS_USER_ON'] = '我们有 %s个访客和1个会员在线.';
+$_lang['GUEST_USERS_ON'] = '我们有 1个访客和 %s 个会员在线.';
+$_lang['GUESTS_USERS_ON'] = '我们有 %s 个访客和 %s个会员在线.';
+$_lang['ONLINE_FOR'] = '在线';
+$_lang['AVATAR_WIDTH'] = '头像宽度';
+$_lang['AVATAR_WIDTH_DESC'] = '在线会员头像宽度(像素).';
+$_lang['HOUR'] = '小时';
+$_lang['HOURS'] = '小时';
+$_lang['MINUTE'] = '分钟';
+$_lang['MINUTES'] = '分钟';
+$_lang['AND'] = '和';
+$_lang['TIME_ONLINE'] = '在线时间';
+$_lang['TIME_ONLINE_DESC'] = '显示用户的在线时间? (当鼠标滑过用户头像显示)';
 
 ?>
