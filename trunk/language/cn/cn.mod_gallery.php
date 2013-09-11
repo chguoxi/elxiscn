@@ -31,10 +31,9 @@ $_lang['IMAGES_DIR_DESC'] = '您的图片放在  media/images/ 下的字文件�
 	缩略图. 如果没有,系统会使用大图作为缩略图.';
 $_lang['OTHER_OPTIONS'] = '其他选项';
 $_lang['LINK'] = '连接';
-$_lang['LINK_DESC'] = 'An optional link to be displayed below the thumbnails for a detailed gallery page. 
-	It can be an Elxis URI (strongly recommended) or a complete URL.';
-$_lang['MORE_IMAGES'] = 'More images';
-$_lang['LIGHTBOX'] = 'Lightbox';
-$_lang['LIGHTBOX_DESC'] = 'Open large images in a lightbox window?';
+$_lang['LINK_DESC'] = '可选连接到图片详细页的连接,可以是ElxisURI或完整URL.';
+$_lang['MORE_IMAGES'] = '更多图片';
+$_lang['LIGHTBOX'] = '弹出窗口';
+$_lang['LIGHTBOX_DESC'] = '在弹出窗口显示大图片?';
 
 ?>
