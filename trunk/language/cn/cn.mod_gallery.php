@@ -17,21 +17,20 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_GALLERY_TITLE'] = 'Gallery';
-$_lang['NUMIMG_DISPLAY'] = 'Number of images to display.';
-$_lang['THUMB_WPIXELS'] = 'Thumbnails width in pixels. The default value is 40.';
-$_lang['PRETEXT'] = 'Introduction text';
-$_lang['PRETEXT_DESC'] = 'You can optionally write some text to be displayed above the gallery images.';
-$_lang['RANDOM'] = 'Random';
-$_lang['BY_NAME'] = 'By name';
-$_lang['NEWER_FIRST'] = 'Newer first';
-$_lang['OLDER_FIRST'] = 'Older first';
-$_lang['IMAGES_DIR'] = 'Images folder';
-$_lang['IMAGES_DIR_DESC'] = 'A sub-folder of media/images/ where your images are located. You can 
-	optionally create a sub-folder named thumbs to upload the images thumbnails. Otherwise, large 
-	images will be used as thumbnails too.';
-$_lang['OTHER_OPTIONS'] = 'Other options';
-$_lang['LINK'] = 'Link';
+$_lang['MOD_GALLERY_TITLE'] = '图片展示';
+$_lang['NUMIMG_DISPLAY'] = '展示图片数.';
+$_lang['THUMB_WPIXELS'] = '缩略图宽度(像素). 默认是 40.';
+$_lang['PRETEXT'] = '介绍文本';
+$_lang['PRETEXT_DESC'] = '您可以随意写一些文字描述展示的图片.';
+$_lang['RANDOM'] = '随机';
+$_lang['BY_NAME'] = '名称';
+$_lang['NEWER_FIRST'] = '新的在前';
+$_lang['OLDER_FIRST'] = '旧的在前';
+$_lang['IMAGES_DIR'] = '图片文件夹';
+$_lang['IMAGES_DIR_DESC'] = '您的图片放在  media/images/ 下的字文件夹里 . 你可以创建一个名为thumbs的子文件夹,用于上传
+	缩略图. 如果没有,系统会使用大图作为缩略图.';
+$_lang['OTHER_OPTIONS'] = '其他选项';
+$_lang['LINK'] = '连接';
 $_lang['LINK_DESC'] = 'An optional link to be displayed below the thumbnails for a detailed gallery page. 
 	It can be an Elxis URI (strongly recommended) or a complete URL.';
 $_lang['MORE_IMAGES'] = 'More images';
