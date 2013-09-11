@@ -17,8 +17,8 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_MENU_TITLE'] = 'Menu';
-$_lang['COLLECTION'] = 'Collection';
+$_lang['MOD_MENU_TITLE'] = '菜单';
+$_lang['COLLECTION'] = '集合';
 $_lang['MENU_COL_DESC'] = 'The menu collection to load links from.';
 $_lang['HORIZONTAL'] = 'Horizontal';
 $_lang['VERTICAL'] = 'Vertical';
