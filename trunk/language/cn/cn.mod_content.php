@@ -17,6 +17,6 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 
 $_lang = array();
-$_lang['MOD_CONTENT_TITLE'] = 'Content';
+$_lang['MOD_CONTENT_TITLE'] = '内容';
 
 ?>
