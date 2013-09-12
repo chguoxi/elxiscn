@@ -60,6 +60,7 @@ $langdb = array (
 	'br' => array('LANGUAGE' => 'br', 'REGION' => 'FR', 'DIR' => 'ltr', 'NAME' => 'Brezhoneg', 'NAME_ENG' => 'Breton'),
 	'ca' => array('LANGUAGE' => 'ca', 'REGION' => 'AD', 'DIR' => 'ltr', 'NAME' => 'català', 'NAME_ENG' => 'Catalan'),
 	'cm' => array('LANGUAGE' => 'cy', 'REGION' => 'GB', 'DIR' => 'ltr', 'NAME' => 'Cymraeg', 'NAME_ENG' => 'Welsh'),
+	'cn' => array('LANGUAGE' => 'cn', 'REGION' => 'CN', 'DIR' => 'cn', 'NAME' => '简体中文', 'NAME_ENG' => 'Simplified Chinese'),
 	'cs' => array('LANGUAGE' => 'cs', 'REGION' => 'CZ', 'DIR' => 'ltr', 'NAME' => 'čeština', 'NAME_ENG' => 'Czech'),
 	'cy' => array('LANGUAGE' => 'el', 'REGION' => 'CY', 'DIR' => 'ltr', 'NAME' => 'Ελληνικά (Κύπρος)', 'NAME_ENG' => 'Greek Cyprus'),
 	'da' => array('LANGUAGE' => 'da', 'REGION' => 'DK', 'DIR' => 'ltr', 'NAME' => 'Dansk', 'NAME_ENG' => 'Danish'),
