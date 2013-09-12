@@ -1,0 +1,327 @@
+<?php 
+/**
+* @version: 4.1
+* @package: Elxis CMS
+* @subpackage: Elxis Language
+* @author: Elxis Team ( http://www.elxis.org )
+* @copyright: (C) 2006-2013 Elxis.org. All rights reserved.
+* @description: en-GB (English - Great Britain) language for component CPanel
+* @license: Elxis public license http://www.elxis.org/elxis-public-license.html
+* @translator: Ioannis Sannos ( http://www.elxis.org )
+*
+* ---- THIS FILE MUST BE ENCODED AS UTF-8! ----
+*
+*****************************************************************************/
+
+defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
+
+
+$_lang = array();
+$_lang['CONTROL_PANEL'] = '控制台';
+$_lang['GENERAL_SITE_SETS'] = '生成网站配置';
+$_lang['LANGS_MANAGER'] = '语言管理';
+$_lang['MANAGE_SITE_LANGS'] = '管理网站语言';
+$_lang['USERS'] = '用户';
+$_lang['MANAGE_USERS'] = '创建、修改、删除用户帐号';
+$_lang['USER_GROUPS'] = '用户组';
+$_lang['MANAGE_UGROUPS'] = '管理用户组';
+$_lang['MEDIA_MANAGER'] = '媒体管理';
+$_lang['MEDIA_MANAGER_INFO'] = '管理多媒体文件';
+$_lang['ACCESS_MANAGER'] = '访问管理';
+$_lang['MANAGE_ACL'] = '管理访问控制列表';
+$_lang['MENU_MANAGER'] = '菜单管理';
+$_lang['MANAGE_MENUS_ITEMS'] = '管理菜单和菜单项';
+$_lang['FRONTPAGE'] = '前台';
+$_lang['DESIGN_FRONTPAGE'] = '设计前台页面';
+$_lang['CATEGORIES_MANAGER'] = '栏目管理';
+$_lang['MANAGE_CONT_CATS'] = '管理内容类别';
+$_lang['CONTENT_MANAGER'] = '内容管理';
+$_lang['MANAGE_CONT_ITEMS'] = '管理内容项目';
+$_lang['MODULES_MANAGE_INST'] = '管理和安装新模块.';
+$_lang['PLUGINS_MANAGE_INST'] = '管理和安装新插件.';
+$_lang['COMPONENTS_MANAGE_INST'] = '管理和安装新组件.';
+$_lang['TEMPLATES_MANAGE_INST'] = '管理和安装新模版.';
+$_lang['SENGINES_MANAGE_INST'] = '管理和安装新搜索引擎.';
+$_lang['MANAGE_WAY_LOGIN'] = '管理用户可能登录网站的方式.';
+$_lang['TRANSLATOR'] = '翻译器';
+$_lang['MANAGE_MLANG_CONTENT'] = '管理多语言内容';
+$_lang['LOGS'] = '日志';
+$_lang['VIEW_MANAGE_LOGS'] = '查看和管理日志文件';
+$_lang['GENERAL'] = '普通';
+$_lang['WEBSITE_STATUS'] = '网站状态';
+$_lang['ONLINE'] = '在线';
+$_lang['OFFLINE'] = '离线';
+$_lang['ONLINE_ADMINS'] = '在线只对管理员可见';
+$_lang['OFFLINE_MSG'] = '离线消息';
+$_lang['OFFLINE_MSG_INFO'] = '此字段留空自动显示多语言消息';
+$_lang['SITENAME'] = '网站名称';
+$_lang['URL_ADDRESS'] = 'URL 地址';
+$_lang['REPO_PATH'] = '库路径';
+$_lang['REPO_PATH_INFO'] = 'Elxis 文件夹的完整路径. 默认留空,
+	位置在 (elxis_root/repository/). 我们强烈建议移动该文件夹到WWW文件夹以外并重命名,让其他人(或机器)不可读!';
+$_lang['FRIENDLY_URLS'] = '友好URL地址';
+$_lang['SEF_INFO'] = '设置为 YES (推荐) 重命名 htaccess.txt 文件为 .htaccess';
+$_lang['STATISTICS_INFO'] = '开启网站访问统计?';
+$_lang['GZIP_COMPRESSION'] = 'GZip 压缩';
+$_lang['GZIP_COMPRESSION_DESC'] = 'Elxis会把稳定压缩后发送到客户端,这样可以节省70%~80%的流量.';
+$_lang['DEFAULT_ROUTE'] = '默认路由';
+$_lang['DEFAULT_ROUTE_INFO'] = '使用一个Elxis格式化的URI作为网站首页 ';
+$_lang['META_DATA'] = 'META 数据';
+$_lang['META_DATA_INFO'] = '网站简短描述';
+$_lang['KEYWORDS'] = '关键词';
+$_lang['KEYWORDS_INFO'] = '多个关键词用逗号隔开';
+$_lang['STYLE_LAYOUT'] = '样式和布局';
+$_lang['SITE_TEMPLATE'] = '网站模板';
+$_lang['ADMIN_TEMPLATE'] = '后台模板';
+$_lang['ICONS_PACK'] = '图标数据包';
+$_lang['LOCALE'] = '区域设置';
+$_lang['TIMEZONE'] = '时区';
+$_lang['MULTILINGUISM'] = '多语言';
+$_lang['MULTILINGUISM_INFO'] = '允许您使用多种语言输入文本. 
+	如果不需要本功能请不要开启,会使网站变慢.  即使本项设置为"No",不会对Elxis接口造成影响,它仍然是多语言.';
+$_lang['CHANGE_LANG'] = '切换语言';
+$_lang['LANG_CHANGE_WARN'] = '如果您切换了语言,可能有语言指标和翻译表的翻译不一致的情况.';
+$_lang['CACHE'] = '缓存';
+$_lang['CACHE_INFO'] = 'Elxis 可以缓存生成的HTML代码方便下次访问,您还可以开启元素(比如模块)缓存.';
+$_lang['APC_INFO'] = 'The 可选PHP缓存 (APC) 是PHP opcode缓存. 必须由服务器支持. 
+	不推荐使用共享主机环境. Elxis 会在特殊的页面使用,以提高网站性能.';
+$_lang['APC_ID_INFO'] = '考虑到以后可能会有更多的网站在同一个服务器上,请使用一个唯一是数字id来标识当前网站.';
+$_lang['USERS_AND_REGISTRATION'] = '用户和注册';
+$_lang['PRIVACY_PROTECTION'] = '隐私政策';
+$_lang['PASSWORD_NOT_SHOWN'] = '由于安全问题,当前密码不被显示. 如果您希望修改密码,则填写该项目.';
+$_lang['DB_TYPE'] = '数据库类型';
+$_lang['ALERT_CON_LOST'] = '如果修改链接,当前数据库会丢失!';
+$_lang['HOST'] = '主机';
+$_lang['PORT'] = '端口';
+$_lang['PERSISTENT_CON'] = '持久链接';
+$_lang['DB_NAME'] = '数据库名';
+$_lang['TABLES_PREFIX'] = '表前缀';
+$_lang['DSN_INFO'] = '使用现成的数据源链接数据库.';
+$_lang['SCHEME'] = '方案';
+$_lang['SCHEME_INFO'] = '数据库文件的绝对路径，如果你使用SQLite等类型数据库.';
+$_lang['SEND_METHOD'] = '发送方式';
+$_lang['SMTP_OPTIONS'] = 'SMTP 选项';
+$_lang['AUTH_REQ'] = '必须验证';
+$_lang['SECURE_CON'] = '安全链接';
+$_lang['SENDER_NAME'] = '发件人名称';
+$_lang['SENDER_EMAIL'] = '发件人 e-mail';
+$_lang['RCPT_NAME'] = '接收人';
+$_lang['RCPT_EMAIL'] = '接收人 e-mail';
+$_lang['TECHNICAL_MANAGER'] = '技术管理';
+$_lang['TECHNICAL_MANAGER_INFO'] = '技术经理收到的错误和安全相关的警报.';
+$_lang['USE_FTP'] = '使用 FTP';
+$_lang['PATH'] = '路径';
+$_lang['FTP_PATH_INFO'] = '从ftp根目录到安装目录的相对路径 (如: /public_html).';
+$_lang['SESSION'] = 'Session';
+$_lang['HANDLER'] = 'Handler';
+$_lang['HANDLER_INFO'] = 'Elxis 可以把session储存到文件或者数据库 . 
+	您也可以不选择该项,让PHP保存到服务器默认的位置.';
+$_lang['FILES'] = '文件';
+$_lang['LIFETIME'] = '生存时间';
+$_lang['SESS_LIFETIME_INFO'] = '当您不操作的时候,会话过期的时间.';
+$_lang['CACHE_TIME_INFO'] = '超过这个时间,重新生存缓存.';
+$_lang['MINUTES'] = '分钟';
+$_lang['HOURS'] = '小时';
+$_lang['MATCH_IP'] = '匹配IP';
+$_lang['MATCH_BROWSER'] = '匹配浏览器';
+$_lang['MATCH_REFERER'] = '匹配HTTP来路';
+$_lang['MATCH_SESS_INFO'] = '启用高级会话验证程序.';
+$_lang['ENCRYPTION'] = '加密';
+$_lang['ENCRYPT_SESS_INFO'] = '加密session数据?';
+$_lang['ERRORS'] = '错误';
+$_lang['WARNINGS'] = '提醒';
+$_lang['NOTICES'] = '注意';
+$_lang['NOTICE'] = '注意';
+$_lang['REPORT'] = '报告';
+$_lang['REPORT_INFO'] = '错误报告级别. 我们建议成品网站关闭所有错误报告.';
+$_lang['LOG'] = '日志';
+$_lang['LOG_INFO'] = '错误日志级别. 选择您希望写入错误日志的错误级别 (repository/logs/).';
+$_lang['ALERT'] = '提醒';
+$_lang['ALERT_INFO'] = '给技术经理的邮件致命错误.';
+$_lang['ROTATE'] = '替换';
+$_lang['ROTATE_INFO'] = '每个月替换错误日志. 推荐.';
+$_lang['DEBUG'] = '调试';
+$_lang['MODULE_POS'] = '模块位置';
+$_lang['MINIMAL'] = '最小';
+$_lang['FULL'] = '完整';
+$_lang['DISPUSERS_AS'] = '展示用户';
+$_lang['USERS_REGISTRATION'] = '用户注册';
+$_lang['ALLOWED_DOMAIN'] = '允许域名';
+$_lang['ALLOWED_DOMAIN_INFO'] = '填写一个域名 (如. elxis.org) 仅允许该域名的邮箱注册.';
+$_lang['EXCLUDED_DOMAINS'] = '例外域名';
+$_lang['EXCLUDED_DOMAINS_INFO'] = '注册的时候不接受的邮箱域名列表,多个用逗号隔开.';
+$_lang['ACCOUNT_ACTIVATION'] = '账号激活';
+$_lang['DIRECT'] = '指令';
+$_lang['MANUAL_BY_ADMIN'] = '管理员手册';
+$_lang['PASS_RECOVERY'] = '密码恢复';
+$_lang['SECURITY'] = '安全';
+$_lang['SECURITY_LEVEL'] = '安全级别';
+$_lang['SECURITY_LEVEL_INFO'] = '提升安全级别会强制开启或关闭一些功能,如需了解更多,请查看Elxis文档.';
+$_lang['NORMAL'] = '普通';
+$_lang['HIGH'] = '高';
+$_lang['INSANE'] = '最高级';
+$_lang['ENCRYPT_METHOD'] = '加密方法';
+$_lang['AUTOMATIC'] = '自动';
+$_lang['ENCRYPTION_KEY'] = '加密 key';
+$_lang['ELXIS_DEFENDER'] = 'Elxis 守护者';
+$_lang['ELXIS_DEFENDER_INFO'] = 'Elxis 守护者保护您的网站不受XSS和SQL攻击.这个强大的工具用于过滤用户请求和防止网站受攻击.
+	 收到攻击的时候它还会通知您并记录日志.您可以选择使用的过滤器类型甚至锁定您的系统中未授权修改的文件. 然而开启太多的过滤器会
+	 使您的网址变慢.我们建议开启G,C 和F级别的就可以了.了解更多详见Elxis文档 .';
+$_lang['SSL_SWITCH'] = 'SSL 切换';
+$_lang['SSL_SWITCH_INFO'] = '在隐私是重要的页面,Elxis 会自动切换HTTP为HTTPS. 
+	管理员中心会永久使用 HTTPS方案. 需要SSL证书!';
+$_lang['PUBLIC_AREA'] = '公共区域';
+$_lang['GENERAL_FILTERS'] = '一般规则';
+$_lang['CUSTOM_FILTERS'] = '自定义规则';
+$_lang['FSYS_PROTECTION'] = '文件系统保护';
+$_lang['CHECK_FTP_SETS'] = '检查FTP设置';
+$_lang['FTP_CON_SUCCESS'] = 'FTP服务器链接成功!';
+$_lang['ELXIS_FOUND_FTP'] = 'Elxis 安装文件已经在FTP上.';
+$_lang['ELXIS_NOT_FOUND_FTP'] = 'Elxis 安装文件已经在FTP上!请检查FTP路径选项.';
+$_lang['CAN_NOT_CHANGE'] = '您不能改变它.';
+$_lang['SETS_SAVED_SUCC'] = '设置修改成功';
+$_lang['ACTIONS'] = '操作';
+$_lang['BAN_IP_REQ_DEF'] = '禁止IP地址需要开启至少一个Elxis 防卫方案!';
+$_lang['BAN_YOURSELF'] = '您是想禁止自己吗?';
+$_lang['IP_AL_BANNED'] = '这个IP已被禁止!';
+$_lang['IP_BANNED'] = 'IP地址 %s 已被禁止!';
+$_lang['BAN_FAILED_NOWRITE'] = '禁止失败! 文件 repository/logs/defender_ban.php 不可写.';
+$_lang['ONLY_ADMINS_ACTION'] = '只有超级管理员能执行此操作!';
+$_lang['CNOT_LOGOUT_ADMIN'] = '您不能以管理员的身份登出!';
+$_lang['USER_LOGGED_OUT'] = '该用户已登出!';
+$_lang['SITE_STATISTICS'] = '网站统计';
+$_lang['SITE_STATISTICS_INFO'] = '网站流量统计';
+$_lang['BACKUP'] = '备份';
+$_lang['BACKUP_INFO'] = '创建完整备份和管理备份.';
+$_lang['BACKUP_FLIST'] = '已有备份列表';
+$_lang['TYPE'] = '类型';
+$_lang['FILENAME'] = '文件名';
+$_lang['SIZE'] = '尺寸';
+$_lang['NEW_DB_BACKUP'] = '创建数据库备份';
+$_lang['NEW_FS_BACKUP'] = '创建文件备份';
+$_lang['FILESYSTEM'] = '文件系统';
+$_lang['DOWNLOAD'] = '下载';
+$_lang['TAKE_NEW_BACKUP'] = '创建新备份?\n这个过程可能需要几分钟时间,请耐心等待!';
+$_lang['FOLDER_NOT_EXIST'] = "文件夹 %s 不存在!";
+$_lang['FOLDER_NOT_WRITE'] = "文件夹 %s 不可写!";
+$_lang['BACKUP_SAVED_INTO'] = "备份文件已保存到 %s";
+$_lang['CACHE_SAVED_INTO'] = "缓存文件以保存到 %s";
+$_lang['CACHED_ITEMS'] = '缓存的项目';
+$_lang['ELXIS_ROUTER'] = 'Elxis 路由';
+$_lang['ROUTING'] = '路由';
+$_lang['ROUTING_INFO'] = '重新转址用户请求URL.';
+$_lang['SOURCE'] = '源地址';
+$_lang['ROUTE_TO'] = '转址到';
+$_lang['REROUTE'] = "转址 %s";
+$_lang['DIRECTORY'] = '目录';
+$_lang['SET_FRONT_CONF'] = '在Elxis设置中设置网站首页!';
+$_lang['ADD_NEW_ROUTE'] = '添加新路由';
+$_lang['OTHER'] = '其他';
+$_lang['LAST_MODIFIED'] = '最近修改';
+$_lang['PERIOD'] = 'Period'; //time period
+$_lang['ERROR_LOG_DISABLED'] = '错误日志记录不可用!';
+$_lang['LOG_ENABLE_ERR'] = '错误日志已开启,报告级别为 fatal.';
+$_lang['LOG_ENABLE_ERRWARN'] = '错误日志已开启,报告级别为errors 和 warnings.';
+$_lang['LOG_ENABLE_ERRWARNNTC'] = '错误日志已开启,报告级别为,warnings 和 notices.';
+$_lang['LOGROT_ENABLED'] = '日志替换已开启.';
+$_lang['LOGROT_DISABLED'] = '日志替换未开启!';
+$_lang['SYSLOG_FILES'] = '系统日志文件';
+$_lang['DEFENDER_BANS'] = '守护程序禁止';
+$_lang['LAST_DEFEND_NOTIF'] = '最新守护程序通知';
+$_lang['LAST_ERROR_NOTIF'] = '最新错误提醒';
+$_lang['TIMES_BLOCKED'] = '次阻止';
+$_lang['REFER_CODE'] = '参考代码';
+$_lang['CLEAR_FILE'] = '清空文件';
+$_lang['CLEAR_FILE_WARN'] = '该文件的内容将被删除,确定吗?';
+$_lang['FILE_NOT_FOUND'] = '没有找到该文件!';
+$_lang['FILE_CNOT_DELETE'] = '这个文件不能被删除!';
+$_lang['ONLY_LOG_DOWNLOAD'] = '只有扩展名为.log 的文件可以下载!';
+$_lang['SYSTEM'] = '系统';
+$_lang['PHP_INFO'] = 'PHP 信息';
+$_lang['PHP_VERSION'] = 'PHP 版本';
+$_lang['ELXIS_INFO'] = 'Elxis 信息';
+$_lang['VERSION'] = '版本';
+$_lang['REVISION_NUMBER'] = '修订版本号';
+$_lang['STATUS'] = '状态';
+$_lang['CODENAME'] = '代号';
+$_lang['RELEASE_DATE'] = '发布日期';
+$_lang['COPYRIGHT'] = 'Copyright';
+$_lang['POWERED_BY'] = 'Powered by';
+$_lang['AUTHOR'] = '作者';
+$_lang['PLATFORM'] = '平台';
+$_lang['HEADQUARTERS'] = 'Headquarters';
+$_lang['ELXIS_ENVIROMENT'] = 'Elxis 环境';
+$_lang['DEFENDER_LOGS'] = '守护日志';
+$_lang['ADMIN_FOLDER'] = '管理员文件夹';
+$_lang['DEF_NAME_RENAME'] = '默认名称, 重命名!';
+$_lang['INSTALL_PATH'] = '安装路径';
+$_lang['IS_PUBLIC'] = '公开!';
+$_lang['CREDITS'] = '积分';
+$_lang['LOCATION'] = '位置';
+$_lang['CONTRIBUTION'] = '贡献';
+$_lang['LICENSE'] = '许可协议';
+$_lang['MULTISITES'] = '多站点';
+$_lang['MULTISITES_DESC'] = '使用Elxis 安装管理多站点.';
+$_lang['MULTISITES_WARN'] = '使用一个Elxis安装平台,您可以拥有多个站点. 使用多站点是需要高级的Elxis CMS知识的任务 .
+	在您导入数据到新站点之前,请确认该数据库是否存在.创建玩一个新站点后,根据跟定的结构修改htaccess文件,删除一个站点
+	不会删除数据库,如果您需要帮助,请咨询经验丰富的技术人员.比如goss.';
+$_lang['MULTISITES_DISABLED'] = '多站点已关闭!';
+$_lang['ENABLE'] = '开启';
+$_lang['ACTIVE'] = '激活';
+$_lang['URL_ID'] = 'URL 标识';
+$_lang['MAN_MULTISITES_ONLY'] = "您只可以从 %s管理多站点";
+$_lang['LOWER_ALPHANUM'] = '小写英文字母或数字不带空格';
+$_lang['IMPORT_DATA'] = '导入数据';
+$_lang['CNOT_CREATE_CFG_NEW'] = "不能从新网站创建配置文件 %s!";
+$_lang['DATA_IMPORT_FAILED'] = '导入数据失败!';
+$_lang['DATA_IMPORT_SUC'] = '导入数据成功!';
+$_lang['ADD_RULES_HTACCESS'] = '添加以下规则到 htaccess 文件';
+$_lang['CREATE_REPOSITORY_NOTE'] = '强烈建议您为每个子站创建一个分离的使用帮助!';
+$_lang['NOT_SUP_DBTYPE'] = '不支持改数据库类型!';
+$_lang['DBTYPES_MUST_SAME'] = '数据库类型必须和当前网站一致!';
+$_lang['DISABLE_MULTISITES'] = '禁用多站点';
+$_lang['DISABLE_MULTISITES_WARN'] = '除本站(id为1的)外,所有站点将被移除!';
+$_lang['VISITS_PER_DAY'] = "每日浏览人数 %s"; //translators help: ... for {MONTH YEAR}
+$_lang['CLICKS_PER_DAY'] = "每日点击数 %s"; //translators help: ... for {MONTH YEAR}
+$_lang['VISITS_PER_MONTH'] = "每月浏览人数 %s"; //translators help: ... for {YEAR}
+$_lang['CLICKS_PER_MONTH'] = "每月点击数 %s"; //translators help: ... for {YEAR}
+$_lang['LANGS_USAGE_FOR'] = "每种语言使用比例 %s"; //translators help: ... for {MONTH YEAR}
+$_lang['UNIQUE_VISITS'] = '独立访客';
+$_lang['PAGE_VIEWS'] = '页面访问量';
+$_lang['TOTAL_VISITS'] = '总访问量';
+$_lang['TOTAL_PAGE_VIEWS'] = '页面访问量';
+$_lang['LANGS_USAGE'] = '语言的使用';
+$_lang['LEGEND'] = '图例';
+$_lang['USAGE'] = '使用';
+$_lang['VIEWS'] = '查看';
+$_lang['OTHER'] = '其他';
+$_lang['NO_DATA_AVAIL'] = '无可用数据';
+$_lang['PERIOD'] = '周期';
+$_lang['YEAR_STATS'] = '年份统计';
+$_lang['MONTH_STATS'] = '月份统计';
+$_lang['PREVIOUS_YEAR'] = '上一年';
+$_lang['NEXT_YEAR'] = '下一年';
+$_lang['STATS_COL_DISABLED'] = '统计数据的收集被禁用!启用配置Elxis统计.';
+$_lang['DOCTYPE'] = 'Document type';
+$_lang['DOCTYPE_INFO'] = '推荐使用HTML5. 即使设置了DOCTYPE为HTML5,Elxis仍会生成XHTML输出.';
+$_lang['ABR_SECONDS'] = '秒';
+$_lang['ABR_MINUTES'] = '分钟';
+$_lang['HOUR'] = '小时';
+$_lang['HOURS'] = '小时';
+$_lang['DAY'] = '天';
+$_lang['DAYS'] = '天';
+$_lang['UPDATED_BEFORE'] = '更新前';
+$_lang['CACHE_INFO'] = '查看和删除保存在缓存中的项目.';
+$_lang['ELXISDC'] = 'Elxis 下载中心';
+$_lang['ELXISDC_INFO'] = '浏览在线 EDC 查看可用扩展';
+$_lang['SITE_LANGS'] = '网站语言';
+$_lang['SITE_LANGS_DESC'] = '默认所有安装语言都会被显示到前台,从下面选择您希望现实到前台的语言.';
+//Elxis 4.1
+$_lang['PERFORMANCE'] = '性能';
+$_lang['MINIFIER_CSSJS'] = 'CSS/Javascript 压缩';
+$_lang['MINIFIER_INFO'] = 'Elxis 可用统一个别本地CSS和JS文件并可选择压缩他们,所以以其有多个CSS/JS文件放在网站头部
+不如将他们合并压缩成一个文件.';
+$_lang['MOBILE_VERSION'] = '手机版';
+$_lang['MOBILE_VERSION_DESC'] = '启用友好支持移动终端访问的版本?';
+
+?>
