@@ -18,7 +18,7 @@ defined('_ELXIS_') or die ('Direct access to this location is not allowed.');
 
 $_lang = array();
 $_lang['MENU'] = '菜单';
-$_lang['MENU_MANAGER'] = '菜单关联';
+$_lang['MENU_MANAGER'] = '菜单管理';
 $_lang['MENU_ITEM_COLLECTIONS'] = '菜单项集合';
 $_lang['SN'] = 'S/N'; //serial number
 $_lang['MENU_ITEMS'] = '菜单项';
